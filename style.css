@@ -1,0 +1,51 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            float: left;
+        }
+        
+        header {
+            background-color: rgb(66, 139, 250);
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(66, 139, 250);
+            color: #ffffff;
+            text-align: right;
+            padding: 10px;
+            font-size: 18px;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #00ffea;
+        }
+        
+        section {
+            padding: 20px;
+        }
+        
+        footer {
+            background-color: rgb(66, 139, 250); 
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
